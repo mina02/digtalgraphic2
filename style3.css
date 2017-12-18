@@ -1,0 +1,57 @@
+html{font-family: 'Spoqa Han Sans', 'Sans-serif'; }
+
+body, h1, ul,li, main, img {margin: 0; padding: 0;}
+.site-header-logo{position:fixed;z-index:999;left:-11px; top: 10px; }
+.site-header-logo{width:12%; float: left; text-align: left;}
+
+a{text-decoration:none;color:#000;transition:0.2s ease;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{}
+.main{padding:0; margin:0 auto;}
+.main{ width: 1064px; height: auto; margin-bottom: 100px; padding-right: 20px; left: 29%; top: 200px; position: absolute; }
+.main h1{line-height:1.8; color:#333; font-size: 0.8em; padding-bottom: 20px; text-align: center; }
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-position: center center;
+  background-size: width:1064px; height: auto;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.xans-layout-footer{padding:20px 0;line-height:1.8; color:#333;}
+.xans-layout-footer .footer-about{display:block; padding:0 0 40px 0;}
+.xans-layout-footer .footer-about li{display:block; clear:both; text-transform: uppercase; font-size:1em;}
+.xans-layout-footer .footer-about li a{color:#333;}
+.xans-layout-footer .footer-wrap{display:block; padding:0px;}
+.xans-layout-footer .shop{padding:0 20 15px 0;}
+.xans-layout-footer .shop li{display:block; clear:both; text-transform:uppercase; font-size:0.7em;}
+.xans-layout-footer .shop li a{color:#999;}
+.xans-layout-footer .copyright{font-size:12px;}
+
+@media screen and (min-width:960px){.xans-layout-footer{position:relative; width:100%; text-align: left;}}
+#footer{position:relative; clear:both; padding:0 40px;}
+#footer .inner{padding:0; margin:0 auto;}
+#footer{position:fixed; left:20px; bottom:50px; padding:0; z-index:999;}
+#footer .inner{padding:0 20px;}
